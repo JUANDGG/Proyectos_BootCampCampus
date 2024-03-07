@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+    <title>formAddPor</title>
+</head>
+<body>
+
+    
+    <div class="container-fluid  w-70 mt-5 p-4 ">
+        <form action="#" class="needs-validation"  id="formData" novalidate>
+            <!--personal data-->
+            <div class="mb-4 ">
+                <div class="card p-4 ">
+                    <div>
+                        <h2 class="h3 text-800">personal data</h2>
+                    </div>
+                    <div class="card-body">
+
+                        <div >
+                            <div class="mb-4 border-bottom border-3">
+                                <label class="form-label" >Dni</label>
+                                <input type="number" class="form-control" id="validationCustom01"  name="dni"  placeholder="Enter the dni" required >
+                                <div class="valid-feedback">Looks good!</div>
+                            </div>
+                        </div>
+
+                        <div >
+                            <div class="mb-4 border-bottom border-3">
+                                <label class="form-label" >full name</label>
+                                <input type="text" class="form-control" id="validationCustom01"  name="fullName"  placeholder="Enter full name" required >
+                                <div class="valid-feedback">Looks good!</div>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="basic-url" class="form-label">Image url</label>
+                            <div class="input-group">
+                              <span class="input-group-text" id="basic-addon3">https://example.com/users/image.png</span>
+                              <input type="text" class="form-control" name="urlImgProfile"  id="basic-url" aria-describedby="basic-addon3 basic-addon4">
+                            </div>
+                            <div class="form-text" id="basic-addon4">in this input you upload a picture of yourself that we will put on your cv</div>
+                            <div class="valid-feedback">Looks good!</div>
+
+                          </div>
+
+                    </div>
+                </div>
+        
+            </div>
+
+        <!--about-->
+            <div class="mb-4 ">
+                <div class="card p-4 ">
+                    <div>
+                        <h2 class="h3 text-800">About</h2>
+                    </div>
+                    <div class="card-body">
+                        <div >
+                            <div class="mb-4 border-bottom border-3">
+                                <label class="form-label" >Personal description</label>
+                                <textarea class="form-control" name="aboutPerson"  placeholder="Enter the personal Description" rows="3" required></textarea>
+                                <div class="valid-feedback">Looks good!</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+            </div>
+
+
+            
+            <!--professions-->
+            <div class="mb-4 ">
+                <div class="card p-4 ">
+                    <div>
+                        <h2 class="h3 text-800">Profession</h2>
+                    </div>
+                    <div class="card-body">
+                        <div >
+                            <div class="mb-4 border-bottom border-3">
+                                <label class="form-label" >Profession</label>
+                                <input type="text" class="form-control" id="validationCustom01"  name="professions"  placeholder="Enter the name of the profession" required>
+                                <div class="valid-feedback">
+                                    Looks good!
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>        
+            </div>
+            <!--social netWork-->
+            <div class="mb-4 ">
+                <div class="card p-4 ">
+                    <div>
+                        <h2 class="h3 text-800">Social networks</h2>
+                    </div>
+    
+                    <div class="card-body">                    
+                        <div class="mb-4 border-bottom border-3" >
+                            <div>
+                                <label class="form-label">Name social network</label>
+                                <input type="text"  name="socialNetworkName"   class="form-control" placeholder="Enter the name of the social network" required>
+                            </div>
+                            <div class="mb-3 mt-3">
+                                <label for="basic-url" class="form-label">Social network URL</label>
+                                <div class="input-group">
+                                  <span class="input-group-text" id="basic-addon3">https://example.com/users/</span>
+                                  <input type="url" class="form-control" name="urlSocialNetwork" id="basic-url" aria-describedby="basic-addon3 basic-addon4">
+                                </div>
+                                <div class="form-text" id="basic-addon4">In this field, you can add the URL of the social network to add to the profile</div>
+                            </div>
+                        </div>
+                        
+                        <!--content-->
+                    </div>
+                    <button type="button" class="btn btn-primary" id="add_another">Add another</button>
+                </div>
+            </div>
+    
+            <!--skills-->
+            <div class="mb-4 ">
+                <div class="card p-4 ">
+                    <div>
+                        <h2 class="h3 text-800">Skills</h2>
+                    </div>
+    
+                    <div class="card-body">                    
+                        <div  class="mb-4  border-bottom border-3">
+                            <div>
+                                <label class="form-label">Name of the skill</label>
+                                <input type="text" class="form-control"  name="nameSkill"  placeholder="Enter the name of the skill" required>
+                            </div>
+                            <div class="mb-3 mt-3">
+                                <label class="form-label">Level domain</label>
+                                <div class="d-flex justify-content-between ">
+                                    <input type="range"  value="0"  name="levelDomain"  class="form-control w-50 inpt_range" required > 
+                                    <span><span id="inpt_range_span">0</span> <strong>%</strong></span></span>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        
+                        <!--content-->
+                    </div>
+                    <button type="button" class="btn btn-primary" id="add_another">Add another</button>
+                </div>
+            </div>
+    
+            <!--hobbies-->
+            <div class="mb-4 ">
+                <div class="card p-4 ">
+                    <div>
+                        <h2 class="h3 text-800">Hobbies</h2>
+                    </div>
+    
+                    <div class="card-body">                    
+                        <div class="mb-4 border-bottom border-3">
+                            
+                            <label class="form-label">Your hobby</label>
+                            <input type="text" class="form-control" name="youHobbie" placeholder="Enter your hobby" required>
+                            
+                        </div>
+                        <!--content-->
+                    </div>
+                    <button type="button" class="btn btn-primary" id="add_another">Add another</button>
+                </div>
+            </div>
+    
+            <!--laboral experience-->
+            <div class="mb-4 ">
+                <div class="card p-4 mt-4">
+                    <div>
+                        <h2 class="h3 text-800">Laboral experience</h2>
+                    </div>
+                    <div class="card-body">                    
+                        <div class="mb-4 border-bottom border-3">
+                            <div>
+                                <label class="form-label" >Name of position</label>
+                                <input type="text" class="form-control" placeholder="Enter the name of the position held at the company" name="nameOfPositonCompany"  required>
+                            </div>
+    
+                            <div class="mb-3 mt-3">
+                                <label class="form-label">Name of company</label>
+                                <input type="text" class="form-control"   name="nameOfCompanyJob"  placeholder="Enter the name of the company you work for" required>
+                            </div>
+                           
+                            <div class="mb-3 mt-3">
+                                <label class="form-label">Role description</label>
+                                <textarea class="form-control" name="roleDescriptionName"  placeholder="Enter your role in the company" rows="3" required ></textarea>
+                            </div>
+                        </div>
+                        <!--content-->
+                    </div>
+                    <button type="button" class="btn btn-primary" id="add_another">Add another</button>
+                </div>
+            </div>
+    
+            <!--education -->
+            <div class="mb-4 ">
+                <div class="card p-4 mt-4">
+                    <div>
+                        <h2 class="h3 text-800">Education</h2>
+                    </div>
+    
+                    <div class="card-body">                    
+                        <div class="mb-4 border-bottom border-3" >
+                            <div>
+                                <label class="form-label" >Name of degree or course</label>
+                                <input type="text" class="form-control" placeholder="Enter the name of the degree or course achieved"  name="nameOfdegreeOrCourse"  required>
+                            </div>
+    
+                            <div class="mb-3 mt-3">
+                                <label class="form-label">Name of institution</label>
+                                <input type="text" class="form-control" name="nameOfinstitution"  placeholder="Enter the name of the institution or site where the degree was obtained" required>
+                            </div>
+    
+                            <div class="mb-3 mt-3">
+                                <label class="form-label">Description of the degree obtained</label>
+                                <textarea class="form-control"  name="descriptionOfTheDegree"  placeholder="Enter a brief description of what you did in this module" rows="3" required></textarea>
+                            </div>
+                        </div>
+                        <!--content-->
+                    </div>
+                    <button type="button" class="btn btn-primary" id="add_another">Add another</button>
+                </div>
+            </div>
+    
+            <!--services-->
+            <div class="mb-4 ">
+                <div class="card p-4 mt-4">
+                    <div>
+                        <h2 class="h3 text-800">Services</h2>
+                    </div>
+    
+                    <div class="card-body">                    
+                        <div class="mb-4 border-bottom border-3">
+                            <div class="mb-3 mt-3">
+                                <label class="form-label">Name of the service</label>
+                                <input type="text" class="form-control" name="nameOfService"  placeholder="Enter the name of the service" required>
+                            </div>
+    
+                            <div class="mb-3 mt-3">
+                                <label class="form-label">Description of the service</label>
+                                <textarea class="form-control" name="descriptionOfService"  placeholder="Enter a brief description of the service" rows="3" required ></textarea>
+                            </div>
+                        </div>
+                        <!--content-->
+                    </div>
+                    <button type="button" class="btn btn-primary" id="add_another">Add another</button>
+                </div>
+            </div>
+            <button type="button" class="btn btn-success w-25" id="btn_send">Send</button>
+        </form>
+    </div>
+
+
+
+    <script src="../modules/funcionalidad.js" ></script>   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="../modules/crudAddPortafol.js"></script>
+    <script src="../modules/funcionalidad.js"></script>
+    <script >
+
+(() => {
+    
+
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    const forms = document.querySelectorAll('.needs-validation');
+
+    // Loop over them and prevent submission
+    Array.from(forms).forEach((form) => {
+      form.addEventListener('submit', (event) => {
+        if (!form.checkValidity()) {
+          event.preventDefault();
+          event.stopPropagation();
+        } else {
+          // Custom validation logic here
+          const fields = form.querySelectorAll('input[type="text"], input[type="number"]');
+          let valid = true;
+
+          fields.forEach((field) => {
+            if (field.type === 'text' && !isValidText(field.value)) {
+              valid = false;
+            }
+
+            if (field.type === 'number' && !isValidNumber(field.value)) {
+              valid = false;
+            }
+          });
+
+          if (!valid) {
+            event.preventDefault();
+            event.stopPropagation();
+            alert('Por favor, complete los campos correctamente.');
+                }
+                }
+
+                form.classList.add('was-validated');
+            }, false);
+            });
+
+            // Custom validation functions
+            function isValidText(value) {
+            // Verifica que el valor solo contenga letras (sin números ni caracteres especiales)
+            return /^[a-zA-Z\s]+$/.test(value);
+            }
+
+            function isValidNumber(value) {
+            // Verifica que el valor sea un número válido
+            return !isNaN(value);
+            }
+        })()
+
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "javascript-filtro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./modules/productos.js",
+  "type": "module",
+  "scripts": {
+    "dev": "json-server --watch ./data/db.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "json-server": "0.17.4"
+  }
+}

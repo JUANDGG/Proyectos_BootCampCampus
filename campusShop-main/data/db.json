@@ -1,0 +1,127 @@
+{
+  "productos": [
+    {
+      "abrigos": "http://localhost:3000/abrigo",
+      "camiseta": "http://localhost:3000/camiseta",
+      "pantalones": "http://localhost:3000/pantalon"
+    }
+  ],
+  "abrigo": [
+    {
+      "nombre": "Chaqueta Impermeable En Gabán Para Dama 'Azul'",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_787280-MCO51843885132_102022-F.webp",
+      "precio": 93900,
+      "id": 1
+    },
+    {
+      "nombre": "Chaqueta Impermeable En Gabán Para Dama 'Negro'",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_904140-MCO51843801912_102022-F.webp",
+      "precio": 93900,
+      "id": 2
+    },
+    {
+      "nombre": "Chaqueta Impermeable En Gabán Para Dama 'Blanco'",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_930447-MCO71410142210_092023-F.webp",
+      "precio": 93900,
+      "id": 3
+    },
+    {
+      "nombre": "Chaqueta Hombre Cuero Sintético",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_712593-MCO41606376126_052020-F.webp",
+      "precio": 102000,
+      "id": 4
+    },
+    {
+      "nombre": "Calidad Chaqueta Hombre Algodon Colombiano Buso Ropa Buzos",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_829630-MCO31080337339_062019-F.webp",
+      "precio": 77900,
+      "id": 5
+    }
+  ],
+  "camiseta": [
+    {
+      "nombre": "Camiseta De Compresión En Licra Uv Slim.",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_906094-MCO53976036500_022023-F.webp",
+      "precio": 38000,
+      "id": 1
+    },
+    {
+      "nombre": "Camiseta Tipo Polo Color Dama Mujer.",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_649847-MCO43854241255_102020-F.webp",
+      "precio": 26255,
+      "id": 2
+    },
+    {
+      "nombre": "Camiseta Deportiva, Crossfit, Gym, Ejercicios Al Aire Libre.",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_995623-MCO70722158553_072023-F.webp",
+      "precio": 29900,
+      "id": 3
+    },
+    {
+      "nombre": "Camisetas Bandas De Rock Metal Heavy Riffs.",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_776916-MCO72088562654_102023-F.webp",
+      "precio": 32850,
+      "id": 4
+    },
+    {
+      "nombre": "Camiseta Anime Nezuko Kamado Kimetsu No Yaiba Demon Slayer",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_968038-MCO53410409233_012023-F.webp",
+      "precio": 29900,
+      "id": 5
+    }
+  ],
+  "pantalon": [
+    {
+      "nombre": "Pantalon En Dril Licrado Para Hombre.",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_731406-MCO42646277112_072020-F.webp",
+      "precio": 58900,
+      "id": 1
+    },
+    {
+      "nombre": "Pantalón Camuflado Hermoso.",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_795748-MCO70527773883_072023-F.webp",
+      "precio": 104405,
+      "id": 2
+    },
+    {
+      "nombre": "Pantalón Jogger Cargo, Táctico, Militar.",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_758206-MCO70501309390_072023-F.webp",
+      "precio": 104500,
+      "id": 3
+    },
+    {
+      "nombre": "Pantalón Jeans De Colores Entubado Para Hombre.",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_947436-MCO69626235546_052023-F.webp",
+      "precio": 61750,
+      "id": 4
+    },
+    {
+      "nombre": "Pantalon Camuflado, De Bolsillos 100% Dreal",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_618657-MCO69523195685_052023-F.webp",
+      "precio": 89990,
+      "id": 5
+    }
+  ],
+  "carrito": [
+    {
+      "pantalonId": 1,
+      "cantidad": 7,
+      "id": 1
+    },
+    {
+      "pantalonId": 2,
+      "cantidad": 6,
+      "id": 2
+    },
+    {
+      "abrigoId": 1,
+      "cantidad": 3,
+      "id": 3
+    },
+    {
+      "abrigoId": 3,
+      "cantidad": 2,
+      "id": 4
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+com\mycompany\biblioteca\Biblioteca.class
+com\mycompany\biblioteca\Libro.class
+com\mycompany\biblioteca\Recurso.class
+com\mycompany\biblioteca\Revista.class
+com\mycompany\biblioteca\Principal.class
+com\mycompany\biblioteca\OpBiblioteca.class
+com\mycompany\biblioteca\TipoRevista.class

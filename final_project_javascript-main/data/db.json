@@ -1,0 +1,151 @@
+{
+  "profile": [
+    {
+      "basic_information": [
+        {
+          "dni": "1005371822",
+          "fullName": "juan david guiza garcia",
+          "imageUrlProfile": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+        }
+      ],
+      "profession_user": "ingenieros",
+      "social_networks_user": [
+        {
+          "social_network_name": "tweter",
+          "url_social_network": "http://www.tweter"
+        },
+        {
+          "social_network_name": "facebook",
+          "url_social_network": "http:ww.facebook.com"
+        }
+      ],
+      "about_user": "aca iria el abouts",
+      "skills_user": [
+        {
+          "name_skill": "dasdasdas",
+          "level_skill": "100"
+        }
+      ],
+      "hobbies_user": [
+        {
+          "hobbie": "jugar futball"
+        }
+      ],
+      "education_user": [
+        {
+          "studyName": "ingeniero de software",
+          "institution": "luis carlos galan sarmiento",
+          "description": "dasdasd"
+        },
+        {
+          "studyName": "ingeniero de software",
+          "institution": "luis carlos galan sarmiento",
+          "description": "dasdasd"
+        }
+      ],
+      "workExperiense_user": [
+        {
+          "companyName": "dasdasd",
+          "positonCompanyName": "dasdasd",
+          "description": "dasdasd"
+        },
+        {
+          "companyName": "hola bro xdxd",
+          "positonCompanyName": "dasdasd",
+          "description": "dasdasd"
+        }
+      ],
+      "services_user": [
+        {
+          "nameOfService": "dasdasd",
+          "descriptionOfService": "dasdasdasd"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "basic_information": [
+        {
+          "dni": "1005371822",
+          "fullName": "pedro",
+          "imageUrlProfile": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+        }
+      ],
+      "profession_user": "ingenieros",
+      "social_networks_user": [
+        {
+          "social_network_name": "tweter",
+          "url_social_network": "http://www.tweter"
+        },
+        {
+          "social_network_name": "facebook",
+          "url_social_network": "http:ww.facebook.com"
+        }
+      ],
+      "about_user": "aca iria el abouts",
+      "skills_user": [
+        {
+          "name_skill": "dasdasdas",
+          "level_skill": "100"
+        }
+      ],
+      "hobbies_user": [
+        {
+          "hobbie": "jugar futball"
+        }
+      ],
+      "education_user": [
+        {
+          "studyName": "ingeniero de software",
+          "institution": "luis carlos galan sarmiento",
+          "description": "hola xd soy malo"
+        }
+      ],
+      "workExperiense_user": [
+        {
+          "companyName": "dasdasd",
+          "positonCompanyName": "dasdasd",
+          "description": "dasdasd"
+        },
+        {
+          "companyName": "hola bro xdxd",
+          "positonCompanyName": "dasdasd",
+          "description": "dasdasd"
+        }
+      ],
+      "services_user": [
+        {
+          "nameOfService": "dasdasd",
+          "descriptionOfService": "dasdasdasd"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "personalInformation": [],
+      "objProfession": [],
+      "socialNetwork": [],
+      "aboutPerson": [],
+      "skills": [],
+      "hobbies": [],
+      "education": [],
+      "workExperiense": [],
+      "services": [],
+      "statusPage": false,
+      "id": 3
+    },
+    {
+      "personalInformation": [],
+      "objProfession": [],
+      "socialNetwork": [],
+      "aboutPerson": [],
+      "skills": [],
+      "hobbies": [],
+      "education": [],
+      "workExperiense": [],
+      "services": [],
+      "statusPage": false,
+      "id": 4
+    }
+  ]
+}

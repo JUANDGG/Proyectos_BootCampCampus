@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    
+    <title>crud author</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row justify-content-center align-content-center">
+            <div class="col-8 barra">
+                <h4 class="text-light">Library campus</h4>
+            </div>
+            <div class="col-4 text-right barra">
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+            <main class="main col">
+                <div class="content-header">
+                    <div class="container-fluid">
+                        <div class="col-sm-6">
+                            <h1 class="m-0">Crud Books</h1>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <p class="m-0">dashboard/ <span class="text-danger">Author</span> </p>
+                        </div>
+                    </div>
+                </div>
+
+                <section class="d-flex justify-content-center align-items-center flex-wrap column-gap-3 ">
+
+                    <form id="formPage" class="w-30" >
+                
+                        <div class="mb-3">
+                            <label for="book" class="form-label">Name</label>
+                            <input type="text" class="form-control" placeholder="Enter the name author" name="name" required>
+                        </div>
+                
+                        <div class="mb-3">
+                            <label for="numPages" class="form-label">Last Name</label>
+                            <input type="text" class="form-control" placeholder="Enter the last name" name="last_name" required>
+                        </div>
+                
+                        <div class="mb-3">
+                            <label for="isbn" class="form-label">Nacionality</label>
+                            <input type="text" class="form-control" placeholder="Enter the Nacionality" name="nacionality" required>
+                        </div>
+                
+                        <button type="submit" class="btn btn-success mt-3" id="btn_send_data">Add</button>
+                    </form>
+                
+                    <div class="mb-3 overflow-y-visible mt-5 ">
+                        <div class="input-group flex-nowrap w-50 mb-3 ">
+                            <span class="input-group-text" id="addon-wrapping">
+                                <svg enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24"
+                                    focusable="false" style="pointer-events: none; display: block; width: 100%; height: 100%;">
+                                    <path
+                                        d="m20.87 20.17-5.59-5.59C16.35 13.35 17 11.75 17 10c0-3.87-3.13-7-7-7s-7 3.13-7 7 3.13 7 7 7c1.75 0 3.35-.65 4.58-1.71l5.59 5.59.7-.71zM10 16c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6z">
+                                    </path>
+                                </svg>
+                            </span>
+                            <input type="text" class="form-control " placeholder="Search authors" aria-label="Search"
+                                aria-describedby="addon-wrapping" id="search_engine">
+                        </div>
+                        <div class="table-responsive ">
+                            <table class="table" id="table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">#</th>
+                                        <th scope="col">Name</th>
+                                        <th scope="col">Last name </th>
+                                        <th scope="col">Nacionality</th>
+                                        
+                                    </tr>
+                                </thead>
+                                <tbody id="tbody"></tbody>
+                            </table>
+                        </div>
+                    </div>
+                </section>
+                
+
+            </main>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="../storage/author.js" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+
+</html>

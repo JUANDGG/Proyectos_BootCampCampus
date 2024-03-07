@@ -1,0 +1,19 @@
+{
+  "name": "repo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "json-server --watch ./data/db.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "json-server": "0.17.4"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.2"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "category": [],
+  "author": [
+    {
+      "name": "juan david",
+      "last_name": "guiza garcia",
+      "nacionality": "colombiano",
+      "id": 1
+    },
+    {
+      "name": "juan david",
+      "last_name": "guiza garcia xd",
+      "nacionality": "colombiano",
+      "id": 2
+    }
+  ],
+  "book_status": [
+    {
+      "name": "reintegracion",
+      "description": "se esta reparando el libro xd",
+      "id": 1
+    }
+  ],
+  "book": [
+    {
+      "title_book": "100 a de soledad",
+      "date": "2023-12-23",
+      "isbn": "02221",
+      "number_pages": 250,
+      "authorId": 1,
+      "categoryId": 1,
+      "publisherId": 1,
+      "book_statusId": 1,
+      "id": 1
+    }
+  ],
+  "loan": [],
+  "publisher": [
+    {
+      "name": "la oveja negra",
+      "address": "cra7a123",
+      "phone": "3118568900",
+      "id": 1
+    },
+    {
+      "name": "la oveja loca",
+      "address": "cra7a123",
+      "phone": "31185689555",
+      "id": 2
+    }
+  ],
+  "reservation": [],
+  "user": []
+}
